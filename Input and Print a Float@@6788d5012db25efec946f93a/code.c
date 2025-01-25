@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    scanf("3.14");
+    scanf();
     printf("%f\n");
     return 0;
 }
