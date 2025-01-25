@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    scanf();
+    scanf("Enter number");
     printf("%f\n");
     return 0;
 }
