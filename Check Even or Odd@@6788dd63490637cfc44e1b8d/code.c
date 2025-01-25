@@ -2,9 +2,9 @@
 int main() {
     int a;
     if(a % 2 == 0){
-        printf("Even %d\n");
+        printf("Even\n");
     }
     else{
-        printf("Odd %d\n");
+        printf("Odd\n");
     }
 }
