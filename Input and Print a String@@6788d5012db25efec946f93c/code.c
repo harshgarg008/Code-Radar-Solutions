@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     str a;
-    scanf("%d",&a)
-    printf("You enetered: %d",a);
+    scanf("%s",&a)
+    printf("You enetered: %s",a);
     return 0;
 }
