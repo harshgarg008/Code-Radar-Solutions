@@ -2,7 +2,7 @@
 int main() {
     unsigned int a;
     scanf("%d",&a);
-    if(a & 0x8000000)
+    if(a & 0x80000000)
     printf("Set");
     else
     printf("Not Set");
