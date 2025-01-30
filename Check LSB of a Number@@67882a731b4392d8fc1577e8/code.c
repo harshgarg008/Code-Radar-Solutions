@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main() {
     int a;
-    int b;
-    scanf("%d%d",&a,&b);
-    printf("%d",a & b);
+    scanf("%d",&a);
+    if(a & 1)
+    printf("Set");
+    else
+    printf("Not Set")
     return 0;
 }
