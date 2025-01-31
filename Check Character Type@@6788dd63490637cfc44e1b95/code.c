@@ -3,7 +3,7 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(isdigit(a))
+    if(isdigit(a)){
     printf(Digit);
     else if(isalpha(a)){
         if(a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U')
@@ -11,8 +11,8 @@ int main() {
         }
         else {
         printf("Consonant");}
-    else
-    printf("Special Character");
+    }else{
+    printf("Special Character");}
 
     return 0;
 }
