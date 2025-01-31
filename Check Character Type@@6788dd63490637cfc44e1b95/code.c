@@ -7,12 +7,12 @@ int main() {
     printf(Digit);
     else if(isalpha(a)){
         if(a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U')
-         printf("Vowel");
+         printf("Vowel\n");
         }
         else {
-        printf("Consonant");}
+        printf("Consonant\n");}
     }else{
-    printf("Special Character");}
+    printf("Special Character\n");}
 
     return 0;
 }
