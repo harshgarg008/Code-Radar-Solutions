@@ -5,7 +5,7 @@ int main() {
     int c;
     scanf("%d%d%d",&a,&b,&c);
     if(a+b)
-    printf("a + b = %d\n",a+b);
+    printf("%d\n",a+b);
     else if(a-b)
     printf("%d\n",c);
     else if(a*b)
