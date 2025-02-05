@@ -9,9 +9,9 @@ int main() {
     else if(a-b)
     printf("%d\n",a-b);
     else if(a*b)
-    printf("%d\n",c);
+    printf("%d\n",a*b);
     else if(a/b)
-    printf("%d\n",c);
+    printf("%d\n",a/b);
     else 
     printf("error\n");
     return 0;
