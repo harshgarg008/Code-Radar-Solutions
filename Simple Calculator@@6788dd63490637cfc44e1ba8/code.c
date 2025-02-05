@@ -7,7 +7,7 @@ int main() {
     if(a+b)
     printf("%d\n",a+b);
     else if(a-b)
-    printf("%d\n",c);
+    printf("%d\n",a-b);
     else if(a*b)
     printf("%d\n",c);
     else if(a/b)
