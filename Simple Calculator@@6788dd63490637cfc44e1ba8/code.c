@@ -10,8 +10,8 @@ int main() {
     printf("%d\n",a-b);
     else if(a*b)
     printf("%d\n",c);
-    else if(a/b)
-    printf("%d\n",c);
+    else if (b != 0 && a / b == c)
+    printf("%d\n",a/b);
     else 
     printf("error\n");
     return 0;
