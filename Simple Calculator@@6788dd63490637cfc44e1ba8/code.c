@@ -6,12 +6,12 @@ int main() {
     scanf("%d%d%d",&a,&b,&c);
     if(a+b)
     printf("%d\n",a+b);
-    else if(a/b)
-    printf("%d\n",a/b);
     else if(a-b)
-    printf("%d\n",a-b);
+    printf("%d\n",c);
     else if(a*b)
-    printf("%d\n",a*b);
+    printf("%d\n",c);
+    else if(a/b)
+    printf("%d\n",c);
     else 
     printf("error\n");
     return 0;
