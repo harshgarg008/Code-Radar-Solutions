@@ -12,7 +12,7 @@ int main() {
     printf("Below Average\n");
     else if(grade=='F')
     printf("Fail\n");
-    else
+    else if(grade=='E')
     printf("Inavlid grade\n");
     return 0;
 }
