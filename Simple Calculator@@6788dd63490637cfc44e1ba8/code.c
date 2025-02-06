@@ -8,7 +8,7 @@ int main() {
     printf("%d\n",a+b);
     else if(a-b)
     printf("%d\n",a-b);
-    else if(a*b)
+    else if(c==a*b)
     printf("%d\n",a*b);
     else if(a / b)
     printf("%d\n",a/b);
