@@ -4,6 +4,5 @@ int main() {
     scanf("%d",&a);
     if(a=='1')
     printf("31");
-    printf("%s", welcome());
     return 0;
 }
