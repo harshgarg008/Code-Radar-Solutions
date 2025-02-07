@@ -6,7 +6,7 @@ int main() {
     if (lowestSetBit != 0) {
         printf("%d", a, lowestSetBit);
     } else {
-        printf("%d", a);
+        printf("1");
     }
 
     return 0;
