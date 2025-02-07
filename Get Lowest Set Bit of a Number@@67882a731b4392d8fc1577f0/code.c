@@ -6,7 +6,7 @@ int main() {
     if (lowestSetBit != 0) {
         printf("%d", a, lowestSetBit);
     } else {
-        printf("The number %d has no set bits (it's 0).\n", n);
+        printf("The number %d has no set bits (it's 0).\n", a);
     }
 
     return 0;
