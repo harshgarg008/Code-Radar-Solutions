@@ -5,7 +5,10 @@ int main() {
     int lowestSetBit = a & -a;
     if (lowestSetBit != 0) {
         printf("0");
-    } else {
+    } 
+    else if(lowestSetBit = '2'){
+    printf("1")}
+    else {
         printf("1");
     }
 
