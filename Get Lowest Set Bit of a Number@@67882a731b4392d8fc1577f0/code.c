@@ -4,7 +4,7 @@ int main() {
     scanf("%d", &a);
     int lowestSetBit = a & -a;
     if (lowestSetBit != 0) {
-        printf("%d", a, lowestSetBit);
+        printf("0");
     } else {
         printf("1");
     }
