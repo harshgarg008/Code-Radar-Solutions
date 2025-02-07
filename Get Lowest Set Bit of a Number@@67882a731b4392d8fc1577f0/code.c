@@ -2,9 +2,12 @@
 int main() {
     int a;
     scanf("%d", &a);
-    if(a == 0)
-    printf("-1\n");
-    else
-    printf("%d\n"a & -a);
+    int lowestSetBit = a & -a;
+    if (lowestSetBit != 0) {
+        printf("%d", a, lowestSetBit);
+    } else {
+        printf("The number %d has no set bits (it's 0).\n", n);
+    }
+
     return 0;
 }
