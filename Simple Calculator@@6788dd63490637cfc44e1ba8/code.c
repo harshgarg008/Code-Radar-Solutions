@@ -1,27 +1,30 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-
-    // Input two integers
-    scanf("%d %d", &a, &b);
-
-    // Check if sum is non-zero, otherwise check other operations
-    if (a + b != 0) {
-        printf("%d\n", a + b);
+    char operator;
+    float num1, num2;
+    scanf("%c", &operator);
+    scanf("%f %f", &num1, &num2);
+    if (operator == '+') {
+        printf("%.2f + %.2f = %.2f\n", num1, num2, num1 + num2);
     }
-    else if (a - b != 0) {
-        printf("%d\n", a - b);
+    else if (operator == '-') {
+        printf("%.2f - %.2f = %.2f\n", num1, num2, num1 - num2);
     }
-    else if (a * b != 0) {
-        printf("%d\n", a * b);
+    else if (operator == '*') {
+        printf("%.2f * %.2f = %.2f\n", num1, num2, num1 * num2);
     }
-    else if (b != 0 && a / b != 0) { // Avoid division by zero
-        printf("%d\n", a / b);
+    else if (operator == '/') {
+        if (num2 != 0) {
+            printf("%.2f / %.2f = %.2f\n", num1, num2, num1 / num2);
+        } else {
+            printf("Error! Division by zero.\n");
+        }
     }
     else {
-        printf("error\n");
+        printf("Invalid operator! Please use one of +, -, *, or /.\n");
     }
 
     return 0;
 }
+
