@@ -18,7 +18,7 @@ int findPeak(int arr[], int N) {
 int main() {
     int N;
 
-    scanf("%d", &N);
+    scanf("%d",&N);
     
     int arr[N];
     
