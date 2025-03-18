@@ -22,18 +22,22 @@ void rotateArray(int arr[], int N, int K) {
 int main() {
     int N, K;
 
+    printf("Enter the size of the array: ");
     scanf("%d", &N);
     
     int arr[N];
     
+    printf("Enter the elements of the array: ");
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
     
+    printf("Enter the number of positions to rotate: ");
     scanf("%d", &K);
 
     rotateArray(arr, N, K);
     
+    printf("Rotated array: ");
     for (int i = 0; i < N; i++) {
         printf("%d ", arr[i]);
     }
@@ -42,4 +46,5 @@ int main() {
     
     return 0;
 }
+
 
