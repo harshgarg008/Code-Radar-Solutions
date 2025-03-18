@@ -27,17 +27,17 @@ int main() {
     
     int arr[N];
     
-    printf("\n");
+    printf("");
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
     
-    printf("\n");
+    printf("");
     scanf("%d", &K);
 
     rotateArray(arr, N, K);
     
-    printf("\n");
+    printf("");
     for (int i = 0; i < N; i++) {
         printf("%d ", arr[i]);
     }
