@@ -27,17 +27,17 @@ int main() {
     
     int arr[N];
     
-    printf("Enter the elements of the array: ");
+    printf("");
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
     
-    printf("Enter the number of positions to rotate: ");
+    printf("");
     scanf("%d", &K);
 
     rotateArray(arr, N, K);
     
-    printf("Rotated array: ");
+    printf("");
     for (int i = 0; i < N; i++) {
         printf("%d ", arr[i]);
     }
