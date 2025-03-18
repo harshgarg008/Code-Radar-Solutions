@@ -26,7 +26,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printf("%d\n", findPeak(arr, N));
+    printf("%d\n",N);
 
     return 0;
 }
