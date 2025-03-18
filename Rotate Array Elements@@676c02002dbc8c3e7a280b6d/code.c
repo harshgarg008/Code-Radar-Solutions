@@ -42,7 +42,7 @@ int main() {
         printf("%d ", arr[i]);
     }
     
-    printf("\n");
+    printf("");
     
     return 0;
 }
