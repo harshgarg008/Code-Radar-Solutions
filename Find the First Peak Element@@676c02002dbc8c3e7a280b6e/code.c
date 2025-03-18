@@ -20,7 +20,7 @@ int main() {
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
-    printf("%d\n",arr[i]);
+    printf("%d\n",findPeak(arr, N));
     return 0;
 }
 
