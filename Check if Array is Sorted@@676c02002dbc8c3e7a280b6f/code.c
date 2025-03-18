@@ -12,13 +12,9 @@ int isSorted(int arr[], int N) {
 
 int main() {
     int N;
-
-    printf("Enter the number of elements in the array: ");
     scanf("%d", &N);
     
     int arr[N];
-    
-    printf("Enter the elements of the array: ");
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
