@@ -22,7 +22,7 @@ void rotateArray(int arr[], int N, int K) {
 int main() {
     int N, K;
 
-    printf("Enter the size of the array: ");
+    printf("%d",N);
     scanf("%d", &N);
     
     int arr[N];
