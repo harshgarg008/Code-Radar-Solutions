@@ -1,7 +1,8 @@
 // Your code here...
 #include <stdio.h>
+
 int main() {
-    int n, i, largest, secondLargest, temp;
+    int n, i, largest, secondLargest;
     scanf("%d", &n);
     if (n < 2) {
         printf("-1\n");
@@ -17,7 +18,7 @@ int main() {
         if (arr[i] > largest) {
             secondLargest = largest;
             largest = arr[i];
-        } else if (arr[i] < largest && arr[i] > secondLargest) {
+        } else if (arr[i] < largest && (secondLargest == -1 || arr[i] > secondLargest)) {
             secondLargest = arr[i];
         }
     }
